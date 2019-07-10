@@ -25,10 +25,10 @@ end
 
 
   hash.each { |key, value| "#{key} #{value}" }
-   
 
 
-   
+
+
    def my_hash_creator(key, value)
 
     hash.each { |key, value| "#{key} #{value}" }
@@ -40,7 +40,7 @@ end
 
 
 
-   
+
 def read_from_hash(hash, key)
   hash[key]
 end
