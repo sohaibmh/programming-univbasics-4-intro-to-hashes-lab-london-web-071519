@@ -20,7 +20,7 @@ def my_hash_creator(hash)
   # return a hash that includes the key and value parameters passed into this method
 end
 
-  a = {a: "all"}
+   a = {a: "all"}
    puts my_hash_creator(a)
 
 def read_from_hash(hash, key)
