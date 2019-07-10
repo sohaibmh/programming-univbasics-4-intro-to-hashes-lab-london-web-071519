@@ -21,7 +21,7 @@ def my_hash_creator(key, value)
 end
 
    a = {a: "all"}
-   puts my_hash_creator(a)
+   puts my_hash_creator("a", "eii")
 
 
   hash.each { |key, value| "#{key} #{value}" }
@@ -29,13 +29,7 @@ end
 
 
 
-   def my_hash_creatorr(key, value)
-
-    "#{key:} #{"value"}"
-
-   end
-
-puts my_hash_creator("a", "ei")
+   
 
 
 
