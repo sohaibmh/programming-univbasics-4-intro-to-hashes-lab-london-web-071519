@@ -35,6 +35,7 @@ end
 
    end
 
+puts my_hash_creator("a", "ei")
 
 
 
