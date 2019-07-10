@@ -14,7 +14,7 @@ def id_generator
   a = {id: 1}
 end
 
-def my_hash_creator(hash)
+def my_hash_creator(key, value)
 
  hash.each { |key, value| "#{key} #{value}" }
   # return a hash that includes the key and value parameters passed into this method
@@ -23,6 +23,24 @@ end
    a = {a: "all"}
    puts my_hash_creator(a)
 
+
+  hash.each { |key, value| "#{key} #{value}" }
+   
+
+
+   
+   def my_hash_creator(key, value)
+
+    hash.each { |key, value| "#{key} #{value}" }
+     # return a hash that includes the key and value parameters passed into this method
+   end
+
+
+
+
+
+
+   
 def read_from_hash(hash, key)
   hash[key]
 end
