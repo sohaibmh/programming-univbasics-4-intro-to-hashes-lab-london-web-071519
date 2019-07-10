@@ -21,7 +21,7 @@ def my_hash_creator(key, value)
 end
 
   a = {a: "all"}
-  a.each {|key, value| puts "#{key} #{value}"}
+  puts a.each {|key, value| puts "#{key} #{value}"}
 
 def read_from_hash(hash, key)
   hash[key]
