@@ -20,8 +20,8 @@ a = {a: "all"}
   # return a hash that includes the key and value parameters passed into this method
 end
 
-a = {a: "all"}
- a.each { |key, value| "#{key} #{value}" }
+  a = {a: "all"}
+  a.each { |key, value| puts "#{key} #{value}" }
 
 def read_from_hash(hash, key)
   hash[key]
